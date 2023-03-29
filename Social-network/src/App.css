@@ -10,41 +10,4 @@
     "nav  foot";
   grid-template-rows: 60px 1fr 30px;
   grid-template-columns: 150px 1fr;
-}
-
-.page > header {
-  grid-area: head;
-  background-color: #8ca0ff;
-}
-
-.header img {
-  width: 60px;
-}
-
-.page > nav {
-  grid-area: nav;
-  background-color: #ffa08c;
-}
-
-.page > main {
-  grid-area: main;
-  background-color: #ffff64;
-}
-
-.picture {
-  width: 100%;
-  height: 250px;
-}
-
-.avatar {
-  max-width: 100%;
-}
-
-.avatar-info {
-  display: flex;
-}
-
-.page > footer {
-  grid-area: foot;
-  background-color: #ec360d;
-}
+};

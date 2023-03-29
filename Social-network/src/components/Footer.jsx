@@ -1,7 +1,9 @@
+import sx from './Footer.module.css'
+
 const Footer = () => {
     return (
         <>
-            <footer>Footer</footer>
+            <footer className={sx.footer}>Footer</footer>
         </>
     )
 }
