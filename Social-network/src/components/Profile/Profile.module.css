@@ -1,0 +1,19 @@
+.main {
+    grid-area: main;
+    background-color: #ffff64;
+    box-sizing: border-box;
+  }
+  
+  .picture {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .avatar {
+    max-width: 100%;
+  }
+  
+  .avatarInfo {
+    display: flex;
+  }
+ 
