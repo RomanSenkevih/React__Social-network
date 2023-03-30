@@ -11,9 +11,9 @@ const MyPosts = () => {
                 <button>Remove</button>
             </div>
             <div>
-               <Post />
-               <Post />
-               <Post />
+               <Post messeg='сообщение 1' like='97656787654'/>
+               <Post messeg='сообщение 2' like='55'/>
+               <Post messeg='сообщение 3' like='88'/>
             </div>
         </>
     )
