@@ -3,7 +3,7 @@
   width: 100%;
   max-width: 1200px;
   margin:0 auto;
-  height: 700px;
+  /* height: 700px; */
   grid-template-areas:
     "head head"
     "nav  main"

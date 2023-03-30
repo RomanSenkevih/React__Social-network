@@ -1,3 +1,4 @@
+import MyPosts from './MyPosts/MyPosts';
 import s from'./Profile.module.css'
 
 const Profile = () => {
@@ -15,18 +16,7 @@ const Profile = () => {
                     <li></li>
                 </ul>
             </div>
-            <div>
-                
-                <label for="xxx"><h2>My posts</h2></label>
-                <input id='xxx' type="text" className={s.input} />
-            </div>
-            <div>
-                <ul>
-                    <li>post 1</li>
-                    <li>post 2</li>
-                    <li>post 3</li>
-                </ul>
-            </div>
+           <MyPosts />
         </main>
         </>
     )
