@@ -11,9 +11,9 @@ const MyPosts = () => {
                 <button>Remove</button>
             </div>
             <div>
-               <Post messeg='сообщение 1' like='97656787654'/>
-               <Post messeg='сообщение 2' like='55'/>
-               <Post messeg='сообщение 3' like='88'/>
+               <Post messeg=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere neque quas, reiciendis accusantium qui velit vel cumque deleniti modi eius.' like='197'/>
+               <Post messeg='сообщение 2 привет мир' like='55'/>
+               <Post messeg='сообщение 3  tetur adipisicing elit. Facere neque quas, reiciendis accusantium qui velit vel cumque deleniti modi eius.' like='88'/>
             </div>
         </>
     )

@@ -1,4 +1,5 @@
 import "./App.css";
+import Dialogues from "./components/Dialogues/Dialogues";
 import Footer from "./components/Footer/Footer.jsx";
 import Header from "./components/Header/Header.jsx";
 import Nav from "./components/Nav/Nav.jsx";
@@ -10,7 +11,10 @@ const App = () => {
     <section className="page">
         <Header />
         <Nav />
-        <Profile />
+        <main className="main">
+          <Dialogues />
+        </main>
+        {/* <Profile /> */}
         <Footer />
       </section>
   );
