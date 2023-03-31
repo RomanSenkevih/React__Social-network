@@ -5,11 +5,11 @@ const Nav = () => {
         <>
             <nav className={s.nav}>
             <ul>
-                <li className={`${s.link} ${s.active}`}><a href="#s"> Profile</a></li>
-                <li className={s.link}><a href="#s">Message</a></li>
-                <li className={s.link}><a href="#s">News</a></li>
-                <li className={s.link}><a href="#s">Music</a></li>
-                <li className={s.link}><a href="#s">Settings</a></li>
+                <li className={`${s.link} ${s.active}`}><a href="/Profile">Profile</a></li>
+                <li className={s.link}><a href="/Dialogs">Message</a></li>
+                <li className={s.link}><a href="/News">News</a></li>
+                <li className={s.link}><a href="/Music">Music</a></li>
+                <li className={s.link}><a href="/Settings">Settings</a></li>
             </ul>
         </nav>
         </>
