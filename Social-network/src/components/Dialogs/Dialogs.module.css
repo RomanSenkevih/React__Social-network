@@ -9,7 +9,13 @@
 
 .author {
     margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
 }
+
+.author [aria-current="page"] {
+    color: gold;
+  }
 
 .messages {
     margin: 20px;
