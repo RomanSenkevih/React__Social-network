@@ -1,0 +1,20 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr; 
+}
+
+.messageAuthors {
+    margin: 20px;
+}
+
+.author {
+    margin-bottom: 20px;
+}
+
+.messages {
+    margin: 20px;
+}
+
+.message {
+    margin-bottom: 20px;
+}
