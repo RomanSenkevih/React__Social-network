@@ -1,0 +1,9 @@
+
+  .avatar {
+    max-width: 100%;
+  }
+  
+  .avatarInfo {
+    display: flex;
+    margin: 20px;
+  }

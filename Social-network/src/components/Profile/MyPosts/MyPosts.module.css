@@ -1,7 +1,13 @@
+.container {
+  margin: 20px;
+}
 
   .input {
     width: 99%;
     height: 60px;
   }
 
-  
+  .buttonLeft {
+    display: flex;
+    justify-content: end;
+  }

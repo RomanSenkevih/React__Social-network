@@ -1,4 +1,27 @@
 .img {
     width: 50px;
     border-radius: 50%;
+    margin: 20px;
+  }
+
+  .containerPost {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .postImg {
+    display: flex;
+  }
+
+  .containerPost span{
+    color: #e70b0b;
+  }
+
+  .containerPost h4{
+    margin-right: 20px;
+  }
+
+  .containerPost p{
+    margin-right: 20px;
   }
